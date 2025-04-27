@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=poppins&display=swap');
+
+p {
+    color:aliceblue;
+}
+
+body {
+    font-size: 18px;
+    font-family: poppins,serif;
+    background: linear-gradient(90deg, #000000 15%, #14007a 65%, #6a00a3 100%);
+}
+
+.nav-link {
+    color: rgb(224, 224, 224);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(150, 150, 148);
+}
+.navbar-brand>img {
+    max-width: 50px;
+   
+}
+
+.navbar-brand {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-toggler {
+    background-color: rgb(99, 99, 99);
+}   
+
+.left-bar,
+.btn-outline-primary {
+    color: aliceblue;
+    background: linear-gradient(270deg, #000000 15%, #14007a 65%, #6a00a3 100%);
+}   
+
+.card {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background: linear-gradient(270deg, #000000 15%, #14007a 65%, #6a00a3 100%);    
+}
+
+.card a {
+    text-decoration: none;
+    color: beige;
+}
+
+.text-s {
+    color: aliceblue;
+    margin: auto auto;
+}
+
+.t {
+    color: aliceblue;
+}
+
+.b-text {
+    margin: auto auto;
+    color: aliceblue;
+}
+
+footer {
+    background: linear-gradient(270deg, #000000 15%, #14007a 65%, #6a00a3 100%);    
+  border-top: 2px solid rgb(45, 45, 45);
+}
+
+.img-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.anim-col  {
+    animation: myAnim 2s ease 0s infinite normal none;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}   
+
+
+
